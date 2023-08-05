@@ -4,8 +4,6 @@ from collections import Counter
 from random import choice
 import pandas as pd
 
-TOKEN="6077718479:AAFWgDQ2qAACFIoEL7MsyXbf84gZ6R66e2U"
-
 
 data = pd.read_csv('nounlist.csv')
 five_word_list = []
